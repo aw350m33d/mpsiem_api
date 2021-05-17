@@ -1,4 +1,4 @@
-# -------------------------------------------------------------------------
+# --------------------------------------------------------------------------
 # Copyright (c) Anton Kutepov. All rights reserved.
 # Licensed under the MIT License. See LICENSE in the project root for
 # license information.
@@ -28,9 +28,9 @@ def get_version():
     return __version__
 
 setuptools.setup(
-    name="mpsiem_api_aw350m3",
+    name="mpsiem_api",
     version=get_version(),
-    author="Kirill Kiryanov",
+    author="Kirill Kiryanov, Anton Kutepov",
     author_email="",
     description="Basic MaxPatrol SIEM API wrapper",
     long_description=get_long_description(),
