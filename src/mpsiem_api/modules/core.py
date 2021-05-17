@@ -15,7 +15,7 @@ _KWARGS_FILTER_QUERY = [
     "offset",
     "token",
     "parse_corr",
-    "recursive",
+    #"recursive",
     "key",
     "debug"
 ]
